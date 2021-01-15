@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: rgba(136, 69, 244, 0.1);
+}
+nav img {
+  width: 260px;
+}
+.nav-section li {
+  padding: 8px;
+  font-weight: 600;
+}
+.card-custom {
+  border: 0;
+  width: 100%;
+  border-radius: 15px;
+}
+.card-custom img {
+  height: 250px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+h2,
+h3,
+h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.intro {
+  font-family: fantasy;
+  font-size: 3.834rem;
+}
+.text-highlighter {
+  color: #8845f4;
+}
