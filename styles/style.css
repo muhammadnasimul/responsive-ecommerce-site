@@ -15,11 +15,9 @@ nav img {
 }
 .card-custom {
   border: 0;
-  width: 100%;
   border-radius: 15px;
 }
 .card-custom img {
-  height: 250px;
   background-color: whitesmoke;
   border-radius: 15px;
 }
@@ -28,7 +26,7 @@ h3,
 h4 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 500;
-  line-height: 45px;
+  /* line-height: 45px; */
 }
 
 .intro {
@@ -37,4 +35,63 @@ h4 {
 }
 .text-highlighter {
   color: #8845f4;
+}
+.prize {
+  color: #8845f4;
+  display: inline-block;
+}
+.custom-button {
+  background-color: #8845f4;
+  display: inline-block;
+  margin-left: 100px;
+  margin-bottom: 15px;
+}
+.headline {
+  text-align: center;
+}
+.headline-decoration {
+  color: #8845f4;
+}
+.featured {
+  height: 300px;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.store img {
+  margin-top: 30px;
+  margin-right: 10px;
+  height: 210px;
+  border-radius: 10px;
+}
+.store h2 {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.custom-card {
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.custom-card img {
+  height: 100px;
+}
+.last-section {
+  height: 530px;
+}
+@media (max-width: 576px) {
+  .featured {
+    height: 270px;
+    width: 480px;
+  }
+  .store img {
+    height: 170px;
+  }
+  .store h2 {
+    margin-top: 0;
+  }
 }
